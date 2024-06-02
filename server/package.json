@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/app.js",
+    "build": "tsc -p .",
+    "dev": "nodemon --watch \"*.ts\" --exec \"ts-node\" *.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/node": "^20.12.7",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "cors": "^2.8.5"
+  }
+}
